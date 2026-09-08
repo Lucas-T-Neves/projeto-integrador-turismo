@@ -1,0 +1,26 @@
+# Dependências do cliente
+client/node_modules/
+client/dist/
+
+# Dependências e arquivos gerados pela API
+api/target/
+
+# Banco de dados local H2
+api/data/*.mv.db
+api/data/*.trace.db
+
+# Arquivos de ambiente
+.env
+.env.*
+
+
+# Configurações de IDE
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
