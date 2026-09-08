@@ -57,11 +57,7 @@ function App() {
   return (
     <main className="page">
       <header className="hero">
-        <p className="eyebrow">Planeje sua próxima experiência</p>
         <h1>Cadastro de viagens</h1>
-        <p className="subtitle">
-          Organize destinos, datas e informações importantes para sua viagem.
-        </p>
       </header>
 
       <section className="content-grid" aria-label="Cadastro e consulta de viagens">

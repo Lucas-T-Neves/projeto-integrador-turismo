@@ -1,9 +1,9 @@
-.card { background: #fff; border: 1px solid #e6e1d9; border-radius: 16px; box-shadow: 0 10px 22px rgba(45, 35, 24, 0.06); overflow: hidden; }
-.destination { background: #f2e7d7; padding: 18px 20px; }
-.destination span { color: #8d694c; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
-.destination h3 { color: #2c241c; font-size: 1.25rem; margin: 5px 0 0; }
-.details { display: grid; gap: 12px; padding: 18px 20px; }
-.details p { align-items: center; border-bottom: 1px solid #eee8e0; display: flex; font-size: 0.87rem; justify-content: space-between; gap: 14px; padding-bottom: 10px; }
-.details p:last-child { border-bottom: 0; padding-bottom: 0; }
-.details strong { color: #756b61; font-size: 0.76rem; text-transform: uppercase; }
-.details span { color: #332a22; font-weight: 700; text-align: right; }
+.card{background-color: darkblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+}
